@@ -1,3 +1,5 @@
+import 'package:eizie/features/event/widget/eventappbar.dart';
+import 'package:eizie/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class EventScreen extends StatelessWidget {
@@ -6,8 +8,10 @@ class EventScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: const SafeArea(child: Center(child: Text('Event Screen'))),
+
+      appBar: appbarwidget(),
+      body: SafeArea(child: Center(child: Text('Event Screen'))),
+
     );
   }
 }
