@@ -8,8 +8,10 @@ class EventScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: appbarwidget(),
       body: SafeArea(child: Center(child: Text('Event Screen'))),
+
     );
   }
 }
