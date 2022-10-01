@@ -98,20 +98,32 @@ class SwimmingCategory extends StatelessWidget {
                           iconColor: mainColor,
                           firstContainerColor:
                               Color.fromARGB(255, 253, 251, 251),
-                          secondContainerColor: Color(0xFFff66c4),
-                          placeName: 'YMCA',
-                          placeDetail: Text('YMCA swimming pool'),
-                          time: Text('7.00 AM to 9.00 PM'),
+                          secondContainerColor: Color(0xFF00c2cb),
+                          placeName: 'Manzo \n Pool',
+                          placeDetail: Text(
+                            'Manzo Pool',
+                            style: TextStyle(fontSize: 19, color: kBlack),
+                          ),
+                          time: Text(
+                            '7.00 AM to 9.00 PM',
+                            style: TextStyle(fontSize: 16, color: mainColor),
+                          ),
                         ),
                         kheight20,
                         SlotWidget(
                           iconColor: mainColor,
                           firstContainerColor:
                               Color.fromARGB(255, 253, 251, 251),
-                          secondContainerColor: Color(0xFFff66c4),
+                          secondContainerColor: Color(0xFFff914d),
                           placeName: 'YMCA',
-                          placeDetail: Text('YMCA swimming pool'),
-                          time: Text('7.00 AM to 9.00 PM'),
+                          placeDetail: Text(
+                            'Greco Pool',
+                            style: TextStyle(fontSize: 19, color: kBlack),
+                          ),
+                          time: Text(
+                            '7.00 AM to 9.00 PM',
+                            style: TextStyle(fontSize: 16, color: mainColor),
+                          ),
                         ),
                         kheight20,
                       ],
@@ -222,7 +234,7 @@ class SlotWidget extends StatelessWidget {
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
+            //crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               Padding(
                 padding: const EdgeInsets.only(left: 10),
