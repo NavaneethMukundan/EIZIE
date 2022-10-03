@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ActivityModel {
@@ -43,7 +42,7 @@ final activityModelList = [
       clipTitle1: 'SMM',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       isVisible: false),
   ActivityModel(
       color: Colors.greenAccent,
@@ -53,11 +52,11 @@ final activityModelList = [
       clipTitle1: 'SMM',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       clipTitle2: '',
       clipSubTitile2: '',
       title2: '',
-      icon2: Icon(Icons.arrow_forward_ios),
+      icon2: const Icon(Icons.arrow_forward_ios),
       isVisible: true),
   ActivityModel(
       color: Colors.pinkAccent,
@@ -67,7 +66,7 @@ final activityModelList = [
       clipTitle1: 'SMM',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       isVisible: false),
   ActivityModel(
       color: Colors.blue,
@@ -77,7 +76,7 @@ final activityModelList = [
       clipTitle1: 'Bowling',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       isVisible: false),
   ActivityModel(
       color: Colors.blueAccent,
@@ -87,7 +86,7 @@ final activityModelList = [
       clipTitle1: 'SMM',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       isVisible: false),
   ActivityModel(
       color: Colors.orangeAccent,
@@ -97,11 +96,11 @@ final activityModelList = [
       clipTitle1: 'SMM',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       clipTitle2: '',
       clipSubTitile2: '',
       title2: '',
-      icon2: Icon(Icons.arrow_forward_ios),
+      icon2: const Icon(Icons.arrow_forward_ios),
       isVisible: true),
   ActivityModel(
       color: Colors.deepPurple,
@@ -111,10 +110,10 @@ final activityModelList = [
       clipTitle1: 'SMM',
       clipSubTitile1: 'SOCIAL CENTER',
       title1: 'SSM SOCIAL CENTER',
-      icon1: Icon(Icons.arrow_forward_ios),
+      icon1: const Icon(Icons.arrow_forward_ios),
       clipTitle2: '',
       clipSubTitile2: '',
       title2: '',
-      icon2: Icon(Icons.arrow_forward_ios),
+      icon2: const Icon(Icons.arrow_forward_ios),
       isVisible: true),
 ];

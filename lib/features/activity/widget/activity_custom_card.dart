@@ -12,7 +12,7 @@ class ActivityCustomCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        RouteController.pushRoute(context, SwimmingCategory());
+        RouteController.pushRoute(context, const SwimmingCategory());
       },
       child: Card(
           shape:

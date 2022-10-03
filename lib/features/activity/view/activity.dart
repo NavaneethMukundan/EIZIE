@@ -94,10 +94,10 @@ class ActivityScreen extends StatelessWidget {
                         style: TextStyle(fontSize: 15, color: kWhite),
                         'Have any interseted activities, but unable to see it \n here? \n Contact your community organizations to help you\n out.'),
                     kheight,
-                    Row(children: [
-                      const Expanded(child: BottumContainer()),
+                    Row(children: const [
+                      Expanded(child: BottumContainer()),
                       kWidth,
-                      const Expanded(child: BottumContainer()),
+                      Expanded(child: BottumContainer()),
                     ]),
                     kheight20
                   ],

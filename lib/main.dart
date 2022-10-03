@@ -1,5 +1,3 @@
-import 'package:eizie/features/activity/controller/provider.dart';
-import 'package:eizie/features/activity/view/sub_category/swimmig_activity.dart';
 import 'package:flutter/material.dart';
 
 import 'features/activity/view/activity.dart';
@@ -18,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ActivityScreen(),
+      home: const ActivityScreen(),
     );
   }
 }
