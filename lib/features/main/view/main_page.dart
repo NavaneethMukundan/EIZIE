@@ -41,7 +41,7 @@ class MainScreen extends StatelessWidget {
               BottomNavigationBarItem(
                   icon: Icon(Icons.home_filled), label: 'Home'),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.category), label: 'Event'),
+                  icon: Icon(Icons.widgets), label: 'Event'),
             ],
           ),
         ));
