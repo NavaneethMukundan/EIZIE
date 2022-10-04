@@ -1,3 +1,4 @@
+import 'package:eizie/features/event/widget/eventappbar.dart';
 import 'package:eizie/utils/constraints.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -11,12 +12,13 @@ class HomePage extends StatelessWidget {
       backgroundColor: const Color(
         0xffFFFFFF,
       ),
-      appBar: AppBar(),
+      // appBar: appbarwidget(),
       body: ListView(
         children: [
           SingleChildScrollView(
             child: Column(
               children: [
+                appbarwidget(),
                 SizedBox(
                   height: 200,
                   child: ListView.builder(
