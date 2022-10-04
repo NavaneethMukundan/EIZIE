@@ -1,6 +1,6 @@
 import 'package:eizie/features/activity/view/activity.dart';
-import 'package:eizie/features/activity/view/sub_category/swimmig_activity.dart';
 import 'package:eizie/features/event/view/activity.dart';
+import 'package:eizie/features/home/view/home_page.dart';
 import 'package:eizie/features/main/controller/main_controller.dart';
 import 'package:eizie/utils/colors.dart';
 import 'package:flutter/material.dart';
@@ -11,7 +11,7 @@ class MainScreen extends StatelessWidget {
 
   final _pages = [
     const ActivityScreen(),
-    const SwimmingCategory(),
+    const HomePage(),
     const EventScreen()
   ];
 
