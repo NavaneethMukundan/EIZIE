@@ -10,7 +10,6 @@ class SwimmingCategory extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final height = MediaQuery.of(context).size.height;
     final width = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: kskyblue,
@@ -20,7 +19,9 @@ class SwimmingCategory extends StatelessWidget {
         leading: Padding(
           padding: const EdgeInsets.only(top: 23),
           child: IconButton(
-              onPressed: () {},
+              onPressed: () {
+                RouteController.popupRoute(context);
+              },
               icon: const Icon(
                 Icons.arrow_back,
                 color: mainColor,

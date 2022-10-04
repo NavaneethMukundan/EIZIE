@@ -90,9 +90,9 @@ class ActivityScreen extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                             color: kWhite)),
                     kheight,
-                    const Text(
-                        style: TextStyle(fontSize: 15, color: kWhite),
-                        'Have any interseted activities, but unable to see it \n here? \n Contact your community organizations to help you\n out.'),
+                    // const Text(
+                    //     style: TextStyle(fontSize: 15, color: kWhite),
+                    //     'Have any interseted activities, but unable to see it \n here? \n Contact your community organizations to help you\n out.'),
                     kheight,
                     Row(children: const [
                       Expanded(child: BottumContainer()),
